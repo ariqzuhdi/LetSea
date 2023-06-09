@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LetSea</string>
+    <string name="title_splash">LETSEA</string>
+    <string name="radar_logo">radar_logo</string>
+    <string name="ship_logo">ship_logo</string>
+    <string name="desc_welcome">Real-time cargo monitoring application</string>
+    <string name="welcome_to_letsea">WELCOME TO LETSEA</string>
+    <string name="login_button">LOGIN</string>
+    <string name="button_register">REGISTER</string>
+    <string name="username">Username</string>
+    <string name="perusahaan">Perusahaan</string>
+    <string name="email">Email</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="letsea">LETSEA</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="register">Register</string>
+    <string name="imo">IMO                          :</string>
+    <string name="name">NAME                      :</string>
+    <string name="builder">BUILDER                 :</string>
+    <string name="register_ship">register ship</string>
+    <string name="place_of_build">PLACE OF BUILD  :</string>
+    <string name="year_build">YEAR BUILD          :</string>
+    <string name="vessel_detail">VESSEL DETAIL</string>
+    <string name="search">SEARCH</string>
+    <string name="map_view">MAP VIEW</string>
+    <string name="setting">SETTING</string>
+    <string name="mmsi">MMSI                       :</string>
+    <string name="track_detail">TRACK DETAIL</string>
+    <string name="atd">ATD</string>
+    <string name="eta">ETA</string>
+</resources>

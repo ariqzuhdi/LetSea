@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_main"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/welcome_ship_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ship"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401" />
+
+
+    <TextView
+        android:id="@+id/welcome_letsea"
+        android:layout_width="310dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/displayreguler"
+        android:text="@string/welcome_to_letsea"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <ImageView
+        android:id="@+id/welcome_radar_logo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/radar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <TextView
+        android:id="@+id/desc_welcome"
+        android:layout_width="310dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="448dp"
+        android:fontFamily="@font/ptreguler"
+        android:gravity="center_horizontal"
+        android:text="@string/desc_welcome"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/blue_secondary"
+        android:fontFamily="@font/ptreguler"
+        android:text="@string/login_button"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="532dp" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
