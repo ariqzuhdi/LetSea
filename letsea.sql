@@ -76,7 +76,7 @@ INSERT INTO `ships` (`mmsi`, `id_company`, `imo`, `ship_name`, `builder`, `place
 CREATE TABLE `tracking` (
   `id_tracking` int(11) NOT NULL,
   `mmsi` int(11) NOT NULL,
-  `sailtime` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `arrival_datetime` varchar(50) NOT NULL,
   `lat` double NOT NULL,
   `lon` double NOT NULL,
   `sog` double NOT NULL,
