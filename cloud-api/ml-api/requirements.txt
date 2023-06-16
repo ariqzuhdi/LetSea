@@ -1,0 +1,7 @@
+tensorflow
+uvicorn
+pandas
+numpy
+datetime
+fastapi
+gunicorn
